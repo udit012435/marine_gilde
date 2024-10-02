@@ -1,6 +1,6 @@
 import React from "react";
 // import { Link } from 'react-router-dom';
-import shipImage from "./assets/ship_1.jpg"
+import shipImage from "./assets/ship23.jpg"
 // import img2 from "./assets/man.jpg"
 // import './App.css'
 import members from "./assets/icon_S.jpeg"
