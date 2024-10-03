@@ -14,9 +14,9 @@ import partners from "./assets/apple.png"
 export const Home = () => {
     return (
         <>
-            <div className="card bg-dark text-white" style={{ position: 'relative', borderRadius: '0px' }} id="home">
+            <div className="card bg-dark text-white" style={{ position: 'relative', overflow: 'hidden', borderRadius: '0px' }} id="home">
                 {/* Card Image */}
-                <img src={shipImage} className="card-img" alt="Abstract" style={{paddingTop:'60px', height: '450px', objectFit: 'cover' }} />
+                <img src={shipImage} className="card-img" alt="Abstract" style={{ height: '450px', objectFit: 'cover' }} />
 
                 {/* Card Overlay */}
                 <div className="card-img-overlay m-5" style={{ padding: '20px' }}>
