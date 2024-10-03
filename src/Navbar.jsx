@@ -52,11 +52,11 @@ export const Navbar = () => {
 
                         {/* Login and Signup Buttons */}
                         <form className="d-flex">
-                            <button style={{background:'blue'}} id="butn" className="btn btn-outline-primary mx-2 " type="submit">
-                                <Link to="login" className="text-decoration-none text-light fw-bold" >LOGIN</Link>
+                            <button id="buton" className="btn btn-outline-warning mx-2 " type="submit">
+                                <Link to="login" className="text-decoration-none fw-bold" >LOGIN</Link>
                             </button>
-                            <button style={{background:'blue'}} className="btn btn-outline-primary mx-2" type="submit">
-                                <Link to="register" className="text-decoration-none text-light fw-bold">SIGNUP</Link>
+                            <button id="buton" className="btn btn-outline-warning mx-2" type="submit">
+                                <Link to="register" className="text-decoration-none fw-bold">SIGNUP</Link>
                             </button>
                         </form>
                     </div>

@@ -19,7 +19,7 @@ export const About = () => {
               <img src={office} className="card-img-top" alt="Our office" />
               <div className="card-body">
                 <h5 className="card-title">Our Office</h5>
-                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p className="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 <div className="text-end">
                   <button className="btn btn-danger px-4 py-1 mt-3 mb-2" style={{ fontSize: '0.8rem', marginLeft: '3rem' }}>Learn more...</button>
                 </div>
@@ -32,7 +32,7 @@ export const About = () => {
               <img src={history} className="card-img-top" alt="Our History" style={{ height: '150%' }} />
               <div className="card-body">
                 <h5 className="card-title">Our History</h5>
-                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p className="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 <div className="text-end">
                   <button className="btn btn-danger px-4 py-1 mt-3 mb-2" style={{ fontSize: '0.8rem', marginLeft: '3rem' }}>Learn more...</button>
                 </div>
@@ -45,7 +45,7 @@ export const About = () => {
               <img src={access} className="card-img-top" alt="Access" style={{ height: '60%' }} />
               <div className="card-body">
                 <h5 className="card-title">Access</h5>
-                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p className="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 <div className="text-end">
                   <button className="btn btn-danger px-4 py-1 mt-3 mb-2" style={{ fontSize: '0.8rem', marginLeft: '3rem' }}>Learn more...</button>
                 </div>

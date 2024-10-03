@@ -1,6 +1,6 @@
 import React from "react";
 // import { Link } from 'react-router-dom';
-import shipImage from "./assets/ship23.jpg"
+import shipImage from "./assets/ship33.gif"
 // import img2 from "./assets/man.jpg"
 // import './App.css'
 import members from "./assets/icon_S.jpeg"
@@ -14,17 +14,50 @@ import partners from "./assets/apple.png"
 export const Home = () => {
     return (
         <>
-            <div className="card bg-dark text-white" style={{ position: 'relative', overflow: 'hidden', borderRadius: '0px' }} id="home">
+            <div className="card bg-dark text-white" style={{ position: 'relative', borderRadius: '0px' }} id="home">
                 {/* Card Image */}
-                <img src={shipImage} className="card-img" alt="Abstract" style={{ height: '450px', objectFit: 'cover' }} />
+                <img src={shipImage} className="card-img" alt="Abstract" style={{paddingTop:'60px', height: '450px', objectFit: 'cover' }} />
 
                 {/* Card Overlay */}
-                <div className="card-img-overlay" style={{ background: 'rgba(0, 0, 0, 0.5)', padding: '20px' }}>
-                    <h5 className="card-title" style={{ marginLeft: '150px' }}>
+                <div className="card-img-overlay m-5" style={{ padding: '20px' }}>
+                    {/* <h5 className="card-title " style={{ marginLeft: '150px' }}>
                         Marine Glide
                     </h5>
                     <p className="card-text">This is additional content. This content is a little bit longer.</p>
-                    <p className="card-text">Last updated 3 mins ago</p>
+                    <p className="card-text">Last updated 3 mins ago</p> */}
+                    <div id="carouselExample" className="carousel slide">
+                        <div className="carousel-inner">
+                            <div className="carousel-item active">
+                            <h5 className="card-title  " style={{ marginLeft: '150px' }}>
+                        Marine Glide
+                    </h5>
+                    <p className="card-text" style={{ marginLeft: '150px' }}>This is additional content. This content is a little bit longer.</p>
+                    <p className="card-text" style={{ marginLeft: '150px' }}>Last updated 3 mins ago</p>
+                            </div>
+                            <div className="carousel-item">
+                            <h5 className="card-title " style={{ marginLeft: '150px' }}>
+                        Marine Glide
+                    </h5>
+                    <p className="card-text" style={{ marginLeft: '150px' }}>This is additional content. This content is a little bit longer.</p>
+                    <p className="card-text"style={{ marginLeft: '150px' }}>Last updated 3 mins ago</p>
+                            </div>
+                            <div className="carousel-item">
+                            <h5 className="card-title " style={{ marginLeft: '150px' }}>
+                        Marine Glide
+                    </h5>
+                    <p className="card-text"style={{ marginLeft: '150px' }}>This is additional content. This content is a little bit longer.</p>
+                    <p className="card-text"style={{ marginLeft: '150px' }}>Last updated 3 mins ago</p>
+                            </div>
+                        </div>
+                        <button className="carousel-control-prev " type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span className="visually-hidden">Previous</span>
+                        </button>
+                        <button className="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span className="visually-hidden">Next</span>
+                        </button>
+                    </div>
                 </div>
             </div>
             <div className="text-center" style={{ marginTop: '50px' }}>
@@ -126,7 +159,7 @@ export const Home = () => {
                 </div>
                 <button className="btn btn-danger mt-5 mb-5">See more...</button>
             </div>
-           
+
         </>
     );
 };

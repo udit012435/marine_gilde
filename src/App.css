@@ -1,94 +1,71 @@
-/* #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
- */
 body {
   background-color: #eee
 }
-.nav-link{
+
+.nav-link {
   display: inline-block;
   color: rgb(255, 255, 255) !important;
   position: relative;
 }
-.nav-link:after{
-  content: ''; /* Add content after the element */
-  position: absolute; /* Position absolute for pseudo-element */
-  width: 100%; /* Full width */
-  transform: scaleX(0); /* Initial scale of 0 for underline effect */
-  height: 3px; /* Height of the underline */
-  bottom: 0; /* Align to bottom */
-  left: 0; /* Align to left */
-  background-color: 
-#0087ca; /* Background color of the underline */
-  transform-origin: bottom middle; /* Set transform origin */
-  transition: transform 0.3s ease-out; /* Transition effect for the underline */
-}
-.nav-link:hover{
 
-  color: rgb(255, 255, 255) !important;
+.nav-link:after {
+  content: '';
+  /* Add content after the element */
+  position: absolute;
+  /* Position absolute for pseudo-element */
+  width: 100%;
+  /* Full width */
+  transform: scaleX(0);
+  /* Initial scale of 0 for underline effect */
+  height: 3px;
+  /* Height of the underline */
+  bottom: 0;
+  /* Align to bottom */
+  left: 0;
+  /* Align to left */
+  background-color:
+    rgb(255, 253, 127);
+  /* Background color of the underline */
+  transform-origin: bottom middle;
+  /* Set transform origin */
+  transition: transform 0.3s ease-out;
+  /* Transition effect for the underline */
+}
+
+.nav-link:hover {
+
+  color: rgb(255, 253, 127) !important;
   font-weight: bold;
 }
-.nav-link:hover:after{
-  transform: scaleX(1); /* Scale the underline on hover */
-  transform-origin: bottom middle; /* Set transform origin */
-  
+
+.nav-link:hover:after {
+  transform: scaleX(1);
+  /* Scale the underline on hover */
+  transform-origin: bottom middle;
+  /* Set transform origin */
+
 }
 
 .card {
   border: none;
   border-radius: 10px;
 }
-#cardteam{
+
+#cardteam {
 
   transition: transform 0.5s ease;
 }
+
 #cardteam:hover {
-  transform: scale(1.05); /* Zoom in slightly on hover */
+  transform: scale(1.05);
+  /* Zoom in slightly on hover */
 }
 
 .c-details span {
   font-weight: 300;
   font-size: 13px
 }
+
 .icon {
   width: 50px;
   height: 50px;
@@ -99,59 +76,79 @@ body {
   justify-content: center;
   font-size: 39px
 }
-#team{
+
+#team {
   width: 100%;
   display: block;
   margin: auto;
-  }
-  .content{
+}
+
+.content {
   width: 100%;
   height: 100%;
-  top:0;
-  left:0;
+  top: 0;
+  left: 0;
   position: absolute;
-  background: rgba(0,0,0,0.6);
+  background: rgba(0, 0, 0, 0.6);
   display: flex;
   justify-items: center;
   align-items: center;
   flex-direction: column;
-  opacity:0;
+  opacity: 0;
   transition: 0.6s;
-  }
-  .content:hover{
+}
+
+.content:hover {
   opacity: 1;
-  }
-  .content h1{
+}
+
+.content h1 {
   font-size: 55px;
-  color:#ffe100;
-  margin-bottom :15px;
-  }
-  .content p{
+  color: #ffe100;
+  margin-bottom: 15px;
+}
+
+.content p {
   font-size: 19px;
-  color:#fff;
-  }
-  .content > *{
+  color: #fff;
+}
+
+.content>* {
   transform: translateY(25px);
   transition: transform 0.6s;
-  }
-  .content:hover > *{
+}
+
+.content:hover>* {
   transform: translateY(0px)
-  }
-#butn{
-  color:#000000 !important;
+}
+
+#butn {
+  color: #000000 !important;
 }
 
 .card-image-wrapper {
-  overflow: hidden; /* Ensures the image doesn't overflow out of the card */
+  overflow: hidden;
+  /* Ensures the image doesn't overflow out of the card */
 }
 
 .img-hover-zoom {
-  transition: transform 0.5s ease, filter 0.5s ease; /* Smooth zoom and blur */
+  transition: transform 0.5s ease, filter 0.5s ease;
+  /* Smooth zoom and blur */
 }
 
 .img-hover-zoom:hover {
-  transform: scale(1.2); /* Zoom effect */
-  filter: blur(2px); /* Blur effect */
+  transform: scale(1.2);
+  /* Zoom effect */
+  filter: blur(2px);
+  /* Blur effect */
 }
 
+#buton {
+  background-color: rgb(235, 227, 118);
+  color: rgb(255, 255, 255) !important;
+}
 
+#buton:hover {
+  background-color: white !important;
+  color: blue;
+}
